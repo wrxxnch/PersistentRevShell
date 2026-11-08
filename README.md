@@ -159,6 +159,3 @@ Uma vez conectado através do seu listener, você pode utilizar os seguintes com
 
 > *Este software destina-se exclusivamente a fins educacionais, testes de segurança autorizados e administração de sistemas. O autor não se responsabiliza por qualquer uso indevido ou dano causado por este programa.*
 
-```
-
-```
