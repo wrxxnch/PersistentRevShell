@@ -1,5 +1,3 @@
-Aqui estão os arquivos `README.md` (em Inglês) e `README.pt-BR` (em Português) formatados profissionalmente para documentar o seu script PowerShell de reverse shell persistente.
-
 ---
 
 ### 1. `README.md` (English)
